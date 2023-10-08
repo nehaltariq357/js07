@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <button id="clickMe">Click me</button>
+
+ 
+  <p id="click-trigger">Click to Hide</p>
+
+   
+  <div id="element-to-hide">
+      This element will be hidden when you click the text above.
+  </div>
+
+  <p>Hover over this <a href="#">link</a> to see the color change.</p>
+
+
+  <a href="#" id="scrollToTop">Scroll to Top</a>
+
+
+  <a href="#" id="playSoundLink">Click to Play Sound</a>
+
+
+  <button id="alertButton">Click me to display an alert</button>
+
+
+  <button id="playSoundButton">Click to Play Sound</button>
+  
+
+  <div id="element-to-hover">
+    Hover over me!
+</div>
+
+ 
+<div id="element-to-hide">
+  Move the mouse out of me!
+</div>
+
+<a href="javascript:void(0);" onclick="openDynamicWindow()">Open Window</a>
+
+<input type="text" id="userInput" placeholder="Enter text">
+
+
+
+<label for="myCheckbox">Check me:</label>
+<input type="checkbox" id="myCheckbox">
+
+
+<label for="mySelect">Choose an option:</label>
+    <select id="mySelect">
+        <option value="option1">Option 1</option>
+        <option value="option2">Option 2</option>
+        <option value="option3">Option 3</option>
+    </select>
+
+    <p>Are you married?</p>
+    <label for="marriedYes">Yes</label>
+    <input type="radio" id="marriedYes" name="maritalStatus" value="yes">
+    <label for="marriedNo">No</label>
+    <input type="radio" id="marriedNo" name="maritalStatus" value="no">
+
+   
+    <input type="text" id="status" placeholder="Status">
+
+  
+    <input type="text" id="myInput" placeholder="Enter text">
+    
+
+    <button onclick="fillInput()">Fill Input</button>
+
+
+    <h2>Registration Form</h2>
+    <form id="registrationForm" onsubmit="return validateForm()">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <span id="nameError" class="error"></span>
+
+        <br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <span id="emailError" class="error"></span>
+
+        <br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <span id="passwordError" class="error"></span>
+
+        <br>
+
+        <input type="submit" value="Register">
+    </form>
+
+
+
+
+    
+
+
+
+  <script src="app.js"></script>
+</body>
+</html>
